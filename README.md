@@ -30,3 +30,7 @@ const authing = new AuthenticationClient({
 ```bash
 $ npm start
 ```
+
+# 参考文档
+
+[React 快速开始](https://docs.authing.cn/v2/quickstarts/spa/react.html)
