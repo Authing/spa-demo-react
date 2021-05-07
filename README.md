@@ -5,14 +5,9 @@
 ```bash
 $ npm install
 ```
-
 # 填写你的应用配置
 
-在 app.js 第七行，修改配置为你的应用配置：
-
-# 填写你的应用配置
-
-在 app.js 第 11 行，修改配置为你的应用配置：
+在 src/App.js 第 11 行，修改配置为你的应用配置：
 
 ```js
 const authing = new AuthenticationClient({
