@@ -12,7 +12,6 @@ $ npm install
 ```js
 const authing = new AuthenticationClient({
   appId: 'APP_ID',
-  secret: 'APP_SECRET',
   appHost: 'https://{你的域名}.authing.cn',
   redirectUri: 'http://localhost:5000/callback',
 });
