@@ -5,15 +5,16 @@
 ```bash
 $ npm install
 ```
+
 # 填写你的应用配置
 
 在 src/App.js 第 11 行，修改配置为你的应用配置：
 
 ```js
 const authing = new AuthenticationClient({
-  appId: 'APP_ID',
-  appHost: 'https://{你的域名}.authing.cn',
-  redirectUri: 'http://localhost:5000/callback',
+	appId: 'APP_ID',
+	appHost: 'https://{你的域名}.authing.cn',
+	redirectUri: 'http://localhost:5000/callback'
 });
 ```
 
@@ -28,3 +29,7 @@ $ npm start
 # 参考文档
 
 [React 快速开始](https://docs.authing.cn/v2/quickstarts/spa/react.html)
+
+# License
+
+spa-demo-react is [MIT licensed](https://github.com/Authing/spa-demo-react//blob/master/LICENSE)
