@@ -20,7 +20,7 @@ const authing = new AuthenticationClient({
 
 ## Authing 控制台配置
 
-在自建应用控制台中，修改一下设置：
+在自建应用控制台中，修改以下设置：
 
 - 登录回调 URL： `http://localhost:4000/callback` （修改为这个值）
 - 换取 token 身份验证方式： `none` （选择这个选项）
