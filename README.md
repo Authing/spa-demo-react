@@ -14,9 +14,18 @@ $ npm install
 const authing = new AuthenticationClient({
 	appId: 'APP_ID',
 	appHost: 'https://{你的域名}.authing.cn',
-	redirectUri: 'http://localhost:5000/callback'
+	redirectUri: 'http://localhost:4000/callback'
 });
 ```
+
+## Authing 控制台配置
+
+在自建应用控制台中，修改一下设置：
+
+- 登录回调 URL： `http://localhost:4000/callback` （修改为这个值）
+- 换取 token 身份验证方式： `none` （选择这个选项）
+
+保存。
 
 # 运行
 
