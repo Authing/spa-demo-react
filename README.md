@@ -140,7 +140,7 @@ import React, { useState, useEffect } from 'react'
 import { useAuthing } from '@/enhance-authing-sdk'
 
 export default function FunctionComponent () {
-  const [userInfo, setUserInfo] = useState()
+  const [userInfo, setUserInfo] = useState('')
   const authing = useAuthing()
 
   const getCurrentUser = async () => {
@@ -158,5 +158,5 @@ export default function FunctionComponent () {
 
 ## 资源
 
-- [用户认证 SDK](https://docs.authing.cn/v2/reference/sdk-for-node/authentication/)
+- [用户认证 SDK 所有功能](https://docs.authing.cn/v2/reference/sdk-for-node/authentication/)
 - [论坛社区](https://forum.authing.cn/)
