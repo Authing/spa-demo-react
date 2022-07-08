@@ -24,6 +24,8 @@
 
 ## 集成 Authing SDK
 
+我们在原有 SDK 基础上封装了 `enhancedLogin`、`enhancedLogout`、`enchancedLoginCallback` 等方法，只需一行代码即可实现`登录`、`登出`、`处理登录成功后的回调` 等能力。
+
 ### 安装 SDK
 
 ``` shell
