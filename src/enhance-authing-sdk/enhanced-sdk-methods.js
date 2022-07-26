@@ -25,15 +25,15 @@ export function enhancedLogin (codeChallengeDigestMethod = 'S256', codeChallenge
 }
 
 /**
- * 
- * @param {String} customRedirectUri 
+ * 退出登录
  */
-export function enhancedLogout (customRedirectUri = '') {
+export function enhancedLogout () {
   const redirectUri = window.location.origin
   const idToken = localStorage.getItem('idToken')
+  let logoutUrl = ''
 
   if (idToken) {
-    this.buildLogoutUrl({
+    logoutUrl = this.buildLogoutUrl({
       expert: true,
       redirectUri,
       idToken
@@ -42,7 +42,7 @@ export function enhancedLogout (customRedirectUri = '') {
 
   localStorage.clear()
 
-  window.location.href = customRedirectUri || redirectUri
+  window.location.href = logoutUrl || redirectUri
 }
 
 export async function enchancedLoginCallback () {
