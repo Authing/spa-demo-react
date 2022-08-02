@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useMemo, useState } from "react";
-import { AuthingSPA } from "@authing/spa-auth-sdk";
+import { Authing } from "@authing/browser";
 import type {
   LoginState,
   UserInfo,
-} from "@authing/spa-auth-sdk/dist/types/global";
+} from "@authing/browser/dist/types/global";
 
 function App() {
   const sdk = useMemo(() => {
-    return new AuthingSPA({
+    return new Authing({
       // 应用的认证地址，例如：https://domain.authing.cn
       domain: process.env.REACT_APP_SDK_DOMAIN as string,
 

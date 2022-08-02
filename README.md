@@ -11,7 +11,7 @@
 
 ## Introduction
 
-You can use Authing to quickly integrate authentication capabilities for new or existing React applications. This demo will show you how to use the Authing SPA SDK to add authentication capabilities to your React application.
+You can use Authing to quickly integrate authentication capabilities for new or existing React applications. This demo will show you how to use the Authing Browser SDK to add authentication capabilities to your React application.
 
 ## Documentation
 
